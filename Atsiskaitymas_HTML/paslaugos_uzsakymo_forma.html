@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paslaugos užsakymas</title>
+  </head>
+  <body>
+    <table border="0" cellspacing="0" width="100%" height="100%">
+      <tr bgcolor="#4A90E2">
+        <!--Header'is-->
+        <td colspan="2">
+          <table width="100%">
+            <tr>
+              <td width="45%" align="left">
+                <img
+                  src="C:\Users\Asus\Documents\Diana\JavaScript_kursai_2026\Atsiskaitymas_HTML\items\logo.jpg"
+                  alt="logo"
+                  width="17%"
+                />
+              </td>
+
+              <td align="40%">
+                <h1>TAVO GAMTA</h1>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <!--Kairysis meniu-->
+        <td width="20%" valign="top" bgcolor="#FFFFFF">
+          <h2>Meniu</h2>
+          <a
+            href="C:\Users\Asus\Documents\Diana\JavaScript_kursai_2026\Atsiskaitymas_HTML\apie_mus.html"
+            >Apie mus</a
+          ><br />
+
+          <a
+            href="C:\Users\Asus\Documents\Diana\JavaScript_kursai_2026\Atsiskaitymas_HTML\kontaktai.html"
+            >Kontaktai</a
+          >
+          <br />
+          <p>Paslaugos užsakymas</p>
+
+          <a
+            href="C:\Users\Asus\Documents\Diana\JavaScript_kursai_2026\Atsiskaitymas_HTML\index.html"
+            >Į pradžią</a
+          >
+        </td>
+        <!--Forma-->
+        <td valign="top" align="40%" bgcolor="#D9E6F2">
+          <h2>Paslaugos užsakymas</h2>
+
+          <form action="#" method="post">
+            <!-- Paslauga dropdown -->
+            <label for="paslauga">Paslauga<font color="red">*</font>:</label
+            ><br />
+            <select name="paslauga" id="paslauga" required>
+              <option value=""></option>
+              <option value="skrydis-dronu">Skrydis dronu</option>
+              <option value="zemelapio-sudarymas">
+                Žemėlapio sudarymas
+              </option></select
+            ><br /><br />
+
+            <!-- Data -->
+            <label for="data"
+              >Paslaugos įvykdymo data:<font color="red">*</font></label
+            ><br />
+            <input type="date" id="data" name="data" required /><br /><br />
+
+            <!-- Teksto laukeliai -->
+            <label for="vardas">Vardas:<font color="red">*</font></label
+            ><br />
+            <input
+              type="text"
+              id="vardas"
+              name="vardas"
+              placeholder="Jūsų vardas"
+              required
+            /><br /><br />
+
+            <label for="pavarde">Pavardė:<font color="red">*</font></label
+            ><br />
+            <input
+              type="text"
+              id="pavarde"
+              name="pavarde"
+              placeholder="Jūsų pavardė"
+              required
+            /><br /><br />
+
+            <label for="email"
+              >El. pašto adresas:<font color="red">*</font></label
+            ><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Jūsų el. pašto adresas"
+              required
+            /><br /><br />
+
+            <label for="telefonas"
+              >Tel. numeris:<font color="red">*</font></label
+            ><br />
+            <input
+              type="tel"
+              id="telefonas"
+              name="telefonas"
+              placeholder="Jūsų telefono numeris"
+              required
+            /><br /><br />
+
+            <input type="submit" value="Užsakyti" />
+          </form>
+        </td>
+      </tr>
+      <!--Footer'is-->
+      <tr bgcolor="#2C6BA6">
+        <td colspan="2" align="center">
+          <p><font size="2">&copy; Klaipėda, Lietuva, 2026</font></p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
